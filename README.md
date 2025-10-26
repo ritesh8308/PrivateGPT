@@ -1,3 +1,4 @@
+
 # PrivateGPT 
 
 <a href="https://trendshift.io/repositories/2601" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2601" alt="imartinez%2FprivateGPT | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
@@ -158,3 +159,7 @@ This project has been strongly influenced and supported by other amazing project
 [LlamaCpp](https://github.com/ggerganov/llama.cpp),
 [Chroma](https://www.trychroma.com/)
 and [SentenceTransformers](https://www.sbert.net/).
+
+# PrivateGPT
+Open_Sourced form Zylon_AI pvt. ltd. Built and deployed a smart Help bot locally on-prem using RAG architecture, LLMs, and Qdrant-powered search for 96\% fast, accurate information retrieval and summarization of content to crisp summary by  (1/4)th part of original content.
+
