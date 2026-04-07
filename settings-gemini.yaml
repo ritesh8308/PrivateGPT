@@ -1,10 +1,20 @@
+server:
+  env_name: prod
+  port: 8000
+  cors:
+    allow_origins: ["*"]
+    allow_methods: ["*"]
+    allow_credentials: true
 llm:
   mode: gemini
-
+tokenizer: null
 embedding:
   mode: gemini
-
 gemini:
-  api_key: ${GOOGLE_API_KEY:}
+  api_key: ${GOOGLE_API_KEY}
   model: models/gemini-pro
   embedding_model: models/embedding-001
+vectorstore:
+  database: simple
+nodestore:
+  database: simple
