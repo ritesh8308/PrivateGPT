@@ -10,9 +10,8 @@ embedding:
 
 gemini:
   api_key: ${GOOGLE_API_KEY}
-  # In 2026, 'gemini-1.0-pro' is the only stable legacy alias left
-  model: models/gemini-1.0-pro
-  embedding_model: models/embedding-001
+  model: models/gemini-1.5-flash
+  embedding_model: models/text-embedding-004
 
 vectorstore:
   database: qdrant
