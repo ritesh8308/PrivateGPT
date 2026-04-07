@@ -10,10 +10,11 @@ embedding:
 
 gemini:
   api_key: ${GOOGLE_API_KEY}
-  # Change this line:
-  model: gemini-1.5-flash
-  # Change this line too:
-  embedding_model: text-embedding-004
+  # Use the current lightning-fast model
+  model: models/gemini-3.1-flash-lite
+  # Use the current standard embedding model
+  embedding_model: models/text-embedding-005
+
 
 
 vectorstore:
