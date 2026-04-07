@@ -1,25 +1,17 @@
 server:
   env_name: prod
   port: 8000
-  cors:
-    allow_origins: ["*"]
-    allow_methods: ["*"]
-    allow_credentials: true
 
 llm:
   mode: gemini
 
-tokenizer: null
-
 embedding:
   mode: gemini
-
 
 gemini:
   api_key: ${GOOGLE_API_KEY}
   model: models/gemini-1.5-flash
   embedding_model: models/text-embedding-004
-  
 
 vectorstore:
   database: qdrant
