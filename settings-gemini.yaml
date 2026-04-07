@@ -16,8 +16,10 @@ embedding:
 
 gemini:
   api_key: ${GOOGLE_API_KEY}
-  model: models/gemini-pro
-  embedding_model: models/embedding-001
+  # Use 'gemini-1.5-pro' instead of 'gemini-pro'
+  model: models/gemini-1.5-pro
+  # Use 'text-embedding-004' for the latest embedding support
+  embedding_model: models/text-embedding-004
 
 vectorstore:
   database: qdrant
